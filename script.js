@@ -81,6 +81,7 @@ submitBookBtn.addEventListener("click", () => {
 
 	modalBox.style.visibility = "hidden";
 
+	clearValues();
 	addButtons();
 });
 
@@ -106,3 +107,11 @@ function addButtons() {
 		}
 	}
 }
+
+function clearValues() {
+	title.value = "";
+	author.value = "";
+	pages.value = "";
+	read.checked = false;
+}
+

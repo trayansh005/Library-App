@@ -78,7 +78,7 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 5px;
+	gap: 15px;
 	position: absolute;
 	top: 92%;
 	left: 50%;
@@ -89,12 +89,24 @@ img {
 	padding: 5px 10px;
 	background: #15803d;
 	border: none;
+	transition: all 0.3s ease;
+}
+
+.mark-read:hover {
+	cursor: pointer;
+	background: #166534;
 }
 
 .remove {
 	padding: 5px 10px;
 	border: none;
 	background: #dc2626;
+	transition: all 0.3s ease;
+}
+
+.remove:hover {
+	cursor: pointer;
+	background: #be123c;
 }
 
 #add-book {
